@@ -2,13 +2,13 @@
   "name": "fcc-api-projects-boilerplate",
   "version": "0.0.1",
   "description": "An FCC Backend Challenge",
-  "main": "index.js",
+  "main": "server.js",  // 修改点1：入口文件改为server.js
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"  // 修改点2：启动命令同步修改
   },
   "dependencies": {
-    "express": "^4.12.4",
-    "cors": "^2.8.0"
+    "express": "^4.18.2",    // 修改点3：更新express版本
+    "cors": "^2.8.5"         // 修改点4：更新cors版本
   },
   "repository": {
     "type": "git",
